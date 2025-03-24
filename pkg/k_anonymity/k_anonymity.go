@@ -4,11 +4,11 @@ import (
 	"bufio"
 	"context"
 	"fmt"
+	kAnonymityErrors "github.com/Motmedel/k_anonymity/pkg/errors"
 	motmedelErrors "github.com/Motmedel/utils_go/pkg/errors"
 	"golang.org/x/sync/errgroup"
 	"hash"
 	"io"
-	kAnonymityErrors "k_anonymity/pkg/errors"
 	"sync"
 )
 

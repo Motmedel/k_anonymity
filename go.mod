@@ -1,4 +1,4 @@
-module k_anonymity
+module github.com/Motmedel/k_anonymity
 
 go 1.24.0
 
