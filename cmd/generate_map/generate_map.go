@@ -103,6 +103,4 @@ func main() {
 	} else {
 		fmt.Println(output)
 	}
-
-	fmt.Println(output)
 }
