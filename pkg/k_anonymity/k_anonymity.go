@@ -67,6 +67,9 @@ func GenerateMap(
 				if err != nil {
 					return motmedelErrors.New(fmt.Errorf("generate hash: %w", err), hashInput)
 				}
+				if len(inputHash) == 0 {
+					return motmedelErrors.NewWithTrace(kAnonymityErrors.ErrEmptyHash, hashInput)
+				}
 
 				if prefixLength > len(inputHash) {
 					return motmedelErrors.NewWithTrace(

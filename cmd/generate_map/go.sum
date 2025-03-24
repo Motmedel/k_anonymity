@@ -1,0 +1,8 @@
+github.com/Motmedel/k_anonymity v0.0.1 h1:AxRbgvq7U5+O+7aw1kERQ08dV6uhobPkttDI7nBwJtg=
+github.com/Motmedel/k_anonymity v0.0.1/go.mod h1:pt4TUVUOV9i98CLH6rPq52j8+S1qwR4F7g/VMWgYdZg=
+github.com/Motmedel/utils_go v0.0.190 h1:KV508Nj5RM3vkt3ea/zZfO7b8EoOV/rsizhZk6/cLbE=
+github.com/Motmedel/utils_go v0.0.190/go.mod h1:kKm8jM7GA8M7ICIImi5etOMixRgQfnStBPjEoCMTgbg=
+github.com/vphpersson/code_generation_go v0.0.4 h1:IgsRKUBF/JXz1QxJ/2l4L9n5dK1EcTF3vih70FMbsX4=
+github.com/vphpersson/code_generation_go v0.0.4/go.mod h1:56Z03NOoeZu0vIVIzanLU4Uek/Zyu3mjKRf+HHOcuII=
+golang.org/x/sync v0.12.0 h1:MHc5BpPuC30uJk597Ri8TV3CNZcTLu6B6z4lJy+g6Jw=
+golang.org/x/sync v0.12.0/go.mod h1:1dzgHSNfp02xaA81J2MS99Qcpr2w7fw1gpm99rleRqA=
