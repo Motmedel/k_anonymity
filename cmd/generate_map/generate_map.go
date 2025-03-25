@@ -41,12 +41,7 @@ func main() {
 	)
 
 	var variableName string
-	flag.StringVar(
-		&variableName,
-		"variable",
-		"x",
-		"The name of the variable in the output.",
-	)
+	flag.StringVar(&variableName, "variable", "x", "The name of the variable in the output.")
 
 	flag.Parse()
 
@@ -91,8 +86,7 @@ func main() {
 	output := fmt.Sprintf("package %s\n\nvar %s = %s", packageName, variableName, literal)
 
 	if gofile := os.Getenv("GOFILE"); gofile != "" {
-		suffixCutFilename, _ := strings.CutSuffix(gofile, ".go")
-		fileName := suffixCutFilename + "_generated.go"
+		fileName := strings.TrimSuffix(gofile, ".go") + "_generated.go"
 		data := []byte(codeGeneratedString + output)
 		if err := os.WriteFile(fileName, data, 0600); err != nil {
 			logger.FatalWithExitingMessage(
